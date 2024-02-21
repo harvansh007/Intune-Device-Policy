@@ -1,0 +1,24 @@
+<PolicyRule Id="{f4779b96-2774-4a9a-a633-ffa63772c8ac}"> 
+   <Name>Allow Read Activity</Name>
+   <IncludedIdList>
+		<GroupId>{e7496192-d150-4776-bde3-a576fed4ea88}</GroupId>
+   </IncludedIdList>
+   <ExcludedIdList>
+		<GroupId>{559e06b5-b941-4f42-959b-b5bfe8296640}</GroupId>
+   </ExcludedIdList>
+   <Entry Id="{8c21fef5-1bd6-47d0-bb3f-c913c4638388}">
+      <Type>Deny</Type>
+      <Options>0</Options>
+      <AccessMask>2</AccessMask>
+   </Entry>
+    <Entry Id="{5239852b-1a7c-4a5e-b70b-605f3699ec2a}">
+      <Type>AuditDenied</Type>
+      <Options>2</Options>
+      <AccessMask>2</AccessMask>
+    </Entry>
+   <Entry Id="{69c3821c-ed9b-45b6-bbbd-9106f8a112de}">
+      <Type>AuditAllowed</Type>
+      <Options>2</Options>
+      <AccessMask>7</AccessMask>
+   </Entry>
+</PolicyRule>

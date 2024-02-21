@@ -1,0 +1,8 @@
+<Group Id="{e7496192-d150-4776-bde3-a576fed4ea88}">
+    <MatchType>MatchAny</MatchType>
+    <DescriptorIdList>
+        <PrimaryId>RemovableMediaDevices</PrimaryId>
+        <PrimaryId>CdRomDevices</PrimaryId>
+        <PrimaryId>WpdDevices</PrimaryId>
+    </DescriptorIdList>
+</Group>

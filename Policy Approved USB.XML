@@ -1,0 +1,23 @@
+<PolicyRule Id="{d6dfd5a0-c340-49c6-b23e-8214e11a7af4}"> 
+   <Name>Allow access and Audit file information</Name>
+   <IncludedIdList>
+   <GroupId>{e7496192-d150-4776-bde3-a576fed4ea88}</GroupId>
+   </IncludedIdList>
+   <ExcludedIdList>
+   </ExcludedIdList>
+   <Entry Id="{559e06b5-b941-4f42-959b-b5bfe8296640}">
+      <Type>Allow</Type>
+      <Options>0</Options>
+      <AccessMask>47</AccessMask>
+   </Entry>
+   <Entry Id="{61443255-ecf6-4da8-b52a-4b0d04176887}">
+      <Type>AuditAllowed</Type>
+      <Options>2</Options>
+      <AccessMask>47</AccessMask>
+   </Entry>
+   <Entry Id="{626cd9d0-96be-4883-9b82-a09a7098adc3}">
+	<Type>Allow</Type>
+	<Options>16</Options>
+	<AccessMask>16</AccessMask>
+	</Entry>
+</PolicyRule>
